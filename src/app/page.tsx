@@ -3,12 +3,10 @@ import { motion } from "framer-motion";
 import Socials from "@/components/Socials";
 import Button from "@/components/Button";
 import Photo from "@/components/Photo";
-import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <section>
-      <Header />
       <div className="xl:mx-20 md:mx-6 mx-4 custom-cursor md:mt-[6rem] mt-[3rem] lg:mt-0">
         <div className="min-h-screen">
           <div className="flex flex-col lg:flex-row items-center justify-between">
@@ -25,13 +23,13 @@ export default function Home() {
                 <span className="text-(--accent)">Nweke Cynthia</span>
               </h2>
               <p className="xl:max-w-[500px] text-white md:mb-6 mb-4">
-                I am a Frontend Developer,I can provide clean code and
-                pixel perfect designs.
+                I am a Frontend Developer,I can provide clean code and pixel
+                perfect designs.
               </p>
               <div className="flex flex-row items-center md:gap-8 gap-4">
                 <a
-                  href="Nweke Cynthia Resume.pdf"
-                  download="Nweke Cynthia Resume.pdf"
+                  href="NWEKE CHINENYE CYNTHIA RESUME.pdf"
+                  download="NWEKE CHINENYE CYNTHIA RESUME.pdf"
                 >
                   <Button text="Download Cv" className="px-6" showIcon={true} />
                 </a>

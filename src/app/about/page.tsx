@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import AboutMe, { skills } from "../about/data";
-import Header from "@/components/Header";
+
 
 type ContentType = "about" | "skills";
 
@@ -56,7 +56,6 @@ const About = () => {
 
   return (
     <div>
-      <Header />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
